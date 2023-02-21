@@ -1,0 +1,3071 @@
+Microsoft (R) COFF/PE Dumper Version 14.21.27702.2
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file ..\lib\OpenCL.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+    17BC size
+correct header end
+
+    225 public symbols
+
+     3002 __IMPORT_DESCRIPTOR_MLANG
+     3224 __NULL_IMPORT_DESCRIPTOR
+     3358 MLANG_NULL_THUNK_DATA
+     34AE __imp_clBuildProgram
+     34AE clBuildProgram
+     3518 __imp_clCompileProgram
+     3518 clCompileProgram
+     3584 __imp_clCreateBuffer
+     3584 clCreateBuffer
+     35EE __imp_clCreateCommandQueue
+     35EE clCreateCommandQueue
+     365E __imp_clCreateCommandQueueWithProperties
+     365E clCreateCommandQueueWithProperties
+     36DC __imp_clCreateContext
+     36DC clCreateContext
+     3746 __imp_clCreateContextFromType
+     3746 clCreateContextFromType
+     37B8 __imp_clCreateFromGLBuffer
+     37B8 clCreateFromGLBuffer
+     3828 __imp_clCreateFromGLRenderbuffer
+     3828 clCreateFromGLRenderbuffer
+     389E __imp_clCreateFromGLTexture
+     389E clCreateFromGLTexture
+     390E __imp_clCreateFromGLTexture2D
+     390E clCreateFromGLTexture2D
+     3980 __imp_clCreateFromGLTexture3D
+     3980 clCreateFromGLTexture3D
+     39F2 __imp_clCreateImage
+     39F2 clCreateImage
+     3A5A __imp_clCreateImage2D
+     3A5A clCreateImage2D
+     3AC4 __imp_clCreateImage3D
+     3AC4 clCreateImage3D
+     3B2E __imp_clCreateKernel
+     3B2E clCreateKernel
+     3B98 __imp_clCreateKernelsInProgram
+     3B98 clCreateKernelsInProgram
+     3C0C __imp_clCreatePipe
+     3C0C clCreatePipe
+     3C74 __imp_clCreateProgramWithBinary
+     3C74 clCreateProgramWithBinary
+     3CE8 __imp_clCreateProgramWithBuiltInKernels
+     3CE8 clCreateProgramWithBuiltInKernels
+     3D64 __imp_clCreateProgramWithSource
+     3D64 clCreateProgramWithSource
+     3DD8 __imp_clCreateSampler
+     3DD8 clCreateSampler
+     3E42 __imp_clCreateSamplerWithProperties
+     3E42 clCreateSamplerWithProperties
+     3EBA __imp_clCreateSubBuffer
+     3EBA clCreateSubBuffer
+     3F26 __imp_clCreateSubDevices
+     3F26 clCreateSubDevices
+     3F94 __imp_clCreateUserEvent
+     3F94 clCreateUserEvent
+     4000 __imp_clEnqueueAcquireGLObjects
+     4000 clEnqueueAcquireGLObjects
+     4074 __imp_clEnqueueBarrier
+     4074 clEnqueueBarrier
+     40E0 __imp_clEnqueueBarrierWithWaitList
+     40E0 clEnqueueBarrierWithWaitList
+     4158 __imp_clEnqueueCopyBuffer
+     4158 clEnqueueCopyBuffer
+     41C6 __imp_clEnqueueCopyBufferRect
+     41C6 clEnqueueCopyBufferRect
+     4238 __imp_clEnqueueCopyBufferToImage
+     4238 clEnqueueCopyBufferToImage
+     42AE __imp_clEnqueueCopyImage
+     42AE clEnqueueCopyImage
+     431C __imp_clEnqueueCopyImageToBuffer
+     431C clEnqueueCopyImageToBuffer
+     4392 __imp_clEnqueueFillBuffer
+     4392 clEnqueueFillBuffer
+     4400 __imp_clEnqueueFillImage
+     4400 clEnqueueFillImage
+     446E __imp_clEnqueueMapBuffer
+     446E clEnqueueMapBuffer
+     44DC __imp_clEnqueueMapImage
+     44DC clEnqueueMapImage
+     4548 __imp_clEnqueueMarker
+     4548 clEnqueueMarker
+     45B2 __imp_clEnqueueMarkerWithWaitList
+     45B2 clEnqueueMarkerWithWaitList
+     4628 __imp_clEnqueueMigrateMemObjects
+     4628 clEnqueueMigrateMemObjects
+     469E __imp_clEnqueueNDRangeKernel
+     469E clEnqueueNDRangeKernel
+     4710 __imp_clEnqueueNativeKernel
+     4710 clEnqueueNativeKernel
+     4780 __imp_clEnqueueReadBuffer
+     4780 clEnqueueReadBuffer
+     47EE __imp_clEnqueueReadBufferRect
+     47EE clEnqueueReadBufferRect
+     4860 __imp_clEnqueueReadImage
+     4860 clEnqueueReadImage
+     48CE __imp_clEnqueueReleaseGLObjects
+     48CE clEnqueueReleaseGLObjects
+     4942 __imp_clEnqueueSVMFree
+     4942 clEnqueueSVMFree
+     49AE __imp_clEnqueueSVMMap
+     49AE clEnqueueSVMMap
+     4A18 __imp_clEnqueueSVMMemFill
+     4A18 clEnqueueSVMMemFill
+     4A86 __imp_clEnqueueSVMMemcpy
+     4A86 clEnqueueSVMMemcpy
+     4AF4 __imp_clEnqueueSVMUnmap
+     4AF4 clEnqueueSVMUnmap
+     4B60 __imp_clEnqueueTask
+     4B60 clEnqueueTask
+     4BC8 __imp_clEnqueueUnmapMemObject
+     4BC8 clEnqueueUnmapMemObject
+     4C3A __imp_clEnqueueWaitForEvents
+     4C3A clEnqueueWaitForEvents
+     4CAC __imp_clEnqueueWriteBuffer
+     4CAC clEnqueueWriteBuffer
+     4D1C __imp_clEnqueueWriteBufferRect
+     4D1C clEnqueueWriteBufferRect
+     4D90 __imp_clEnqueueWriteImage
+     4D90 clEnqueueWriteImage
+     4DFE __imp_clFinish
+     4DFE clFinish
+     4E62 __imp_clFlush
+     4E62 clFlush
+     4EC4 __imp_clGetCommandQueueInfo
+     4EC4 clGetCommandQueueInfo
+     4F34 __imp_clGetContextInfo
+     4F34 clGetContextInfo
+     4FA0 __imp_clGetDeviceIDs
+     4FA0 clGetDeviceIDs
+     500A __imp_clGetDeviceInfo
+     500A clGetDeviceInfo
+     5074 __imp_clGetEventInfo
+     5074 clGetEventInfo
+     50DE __imp_clGetEventProfilingInfo
+     50DE clGetEventProfilingInfo
+     5150 __imp_clGetExtensionFunctionAddress
+     5150 clGetExtensionFunctionAddress
+     51C8 __imp_clGetExtensionFunctionAddressForPlatform
+     51C8 clGetExtensionFunctionAddressForPlatform
+     524C __imp_clGetGLObjectInfo
+     524C clGetGLObjectInfo
+     52B8 __imp_clGetGLTextureInfo
+     52B8 clGetGLTextureInfo
+     5326 __imp_clGetImageInfo
+     5326 clGetImageInfo
+     5390 __imp_clGetKernelArgInfo
+     5390 clGetKernelArgInfo
+     53FE __imp_clGetKernelInfo
+     53FE clGetKernelInfo
+     5468 __imp_clGetKernelWorkGroupInfo
+     5468 clGetKernelWorkGroupInfo
+     54DC __imp_clGetMemObjectInfo
+     54DC clGetMemObjectInfo
+     554A __imp_clGetPipeInfo
+     554A clGetPipeInfo
+     55B2 __imp_clGetPlatformIDs
+     55B2 clGetPlatformIDs
+     561E __imp_clGetPlatformInfo
+     561E clGetPlatformInfo
+     568A __imp_clGetProgramBuildInfo
+     568A clGetProgramBuildInfo
+     56FA __imp_clGetProgramInfo
+     56FA clGetProgramInfo
+     5766 __imp_clGetSamplerInfo
+     5766 clGetSamplerInfo
+     57D2 __imp_clGetSupportedImageFormats
+     57D2 clGetSupportedImageFormats
+     5848 __imp_clLinkProgram
+     5848 clLinkProgram
+     58B0 __imp_clReleaseCommandQueue
+     58B0 clReleaseCommandQueue
+     5920 __imp_clReleaseContext
+     5920 clReleaseContext
+     598C __imp_clReleaseDevice
+     598C clReleaseDevice
+     59F6 __imp_clReleaseEvent
+     59F6 clReleaseEvent
+     5A60 __imp_clReleaseKernel
+     5A60 clReleaseKernel
+     5ACA __imp_clReleaseMemObject
+     5ACA clReleaseMemObject
+     5B38 __imp_clReleaseProgram
+     5B38 clReleaseProgram
+     5BA4 __imp_clReleaseSampler
+     5BA4 clReleaseSampler
+     5C10 __imp_clRetainCommandQueue
+     5C10 clRetainCommandQueue
+     5C80 __imp_clRetainContext
+     5C80 clRetainContext
+     5CEA __imp_clRetainDevice
+     5CEA clRetainDevice
+     5D54 __imp_clRetainEvent
+     5D54 clRetainEvent
+     5DBC __imp_clRetainKernel
+     5DBC clRetainKernel
+     5E26 __imp_clRetainMemObject
+     5E26 clRetainMemObject
+     5E92 __imp_clRetainProgram
+     5E92 clRetainProgram
+     5EFC __imp_clRetainSampler
+     5EFC clRetainSampler
+     5F66 __imp_clSVMAlloc
+     5F66 clSVMAlloc
+     5FCC __imp_clSVMFree
+     5FCC clSVMFree
+     6030 __imp_clSetCommandQueueProperty
+     6030 clSetCommandQueueProperty
+     60A4 __imp_clSetEventCallback
+     60A4 clSetEventCallback
+     6112 __imp_clSetKernelArg
+     6112 clSetKernelArg
+     617C __imp_clSetKernelArgSVMPointer
+     617C clSetKernelArgSVMPointer
+     61F0 __imp_clSetKernelExecInfo
+     61F0 clSetKernelExecInfo
+     625E __imp_clSetMemObjectDestructorCallback
+     625E clSetMemObjectDestructorCallback
+     62DA __imp_clSetUserEventStatus
+     62DA clSetUserEventStatus
+     634A __imp_clUnloadCompiler
+     634A clUnloadCompiler
+     63B6 __imp_clUnloadPlatformCompiler
+     63B6 clUnloadPlatformCompiler
+     642A __imp_clWaitForEvents
+     642A clWaitForEvents
+
+Archive member name at 1800: /               
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+    17C6 size
+correct header end
+
+    114 offsets
+
+        1     3002
+        2     3224
+        3     3358
+        4     34AE
+        5     3518
+        6     3584
+        7     35EE
+        8     365E
+        9     36DC
+        A     3746
+        B     37B8
+        C     3828
+        D     389E
+        E     390E
+        F     3980
+       10     39F2
+       11     3A5A
+       12     3AC4
+       13     3B2E
+       14     3B98
+       15     3C0C
+       16     3C74
+       17     3CE8
+       18     3D64
+       19     3DD8
+       1A     3E42
+       1B     3EBA
+       1C     3F26
+       1D     3F94
+       1E     4000
+       1F     4074
+       20     40E0
+       21     4158
+       22     41C6
+       23     4238
+       24     42AE
+       25     431C
+       26     4392
+       27     4400
+       28     446E
+       29     44DC
+       2A     4548
+       2B     45B2
+       2C     4628
+       2D     469E
+       2E     4710
+       2F     4780
+       30     47EE
+       31     4860
+       32     48CE
+       33     4942
+       34     49AE
+       35     4A18
+       36     4A86
+       37     4AF4
+       38     4B60
+       39     4BC8
+       3A     4C3A
+       3B     4CAC
+       3C     4D1C
+       3D     4D90
+       3E     4DFE
+       3F     4E62
+       40     4EC4
+       41     4F34
+       42     4FA0
+       43     500A
+       44     5074
+       45     50DE
+       46     5150
+       47     51C8
+       48     524C
+       49     52B8
+       4A     5326
+       4B     5390
+       4C     53FE
+       4D     5468
+       4E     54DC
+       4F     554A
+       50     55B2
+       51     561E
+       52     568A
+       53     56FA
+       54     5766
+       55     57D2
+       56     5848
+       57     58B0
+       58     5920
+       59     598C
+       5A     59F6
+       5B     5A60
+       5C     5ACA
+       5D     5B38
+       5E     5BA4
+       5F     5C10
+       60     5C80
+       61     5CEA
+       62     5D54
+       63     5DBC
+       64     5E26
+       65     5E92
+       66     5EFC
+       67     5F66
+       68     5FCC
+       69     6030
+       6A     60A4
+       6B     6112
+       6C     617C
+       6D     61F0
+       6E     625E
+       6F     62DA
+       70     634A
+       71     63B6
+       72     642A
+
+    225 public symbols
+
+        1 __IMPORT_DESCRIPTOR_MLANG
+        2 __NULL_IMPORT_DESCRIPTOR
+        4 __imp_clBuildProgram
+        5 __imp_clCompileProgram
+        6 __imp_clCreateBuffer
+        7 __imp_clCreateCommandQueue
+        8 __imp_clCreateCommandQueueWithProperties
+        9 __imp_clCreateContext
+        A __imp_clCreateContextFromType
+        B __imp_clCreateFromGLBuffer
+        C __imp_clCreateFromGLRenderbuffer
+        D __imp_clCreateFromGLTexture
+        E __imp_clCreateFromGLTexture2D
+        F __imp_clCreateFromGLTexture3D
+       10 __imp_clCreateImage
+       11 __imp_clCreateImage2D
+       12 __imp_clCreateImage3D
+       13 __imp_clCreateKernel
+       14 __imp_clCreateKernelsInProgram
+       15 __imp_clCreatePipe
+       16 __imp_clCreateProgramWithBinary
+       17 __imp_clCreateProgramWithBuiltInKernels
+       18 __imp_clCreateProgramWithSource
+       19 __imp_clCreateSampler
+       1A __imp_clCreateSamplerWithProperties
+       1B __imp_clCreateSubBuffer
+       1C __imp_clCreateSubDevices
+       1D __imp_clCreateUserEvent
+       1E __imp_clEnqueueAcquireGLObjects
+       1F __imp_clEnqueueBarrier
+       20 __imp_clEnqueueBarrierWithWaitList
+       21 __imp_clEnqueueCopyBuffer
+       22 __imp_clEnqueueCopyBufferRect
+       23 __imp_clEnqueueCopyBufferToImage
+       24 __imp_clEnqueueCopyImage
+       25 __imp_clEnqueueCopyImageToBuffer
+       26 __imp_clEnqueueFillBuffer
+       27 __imp_clEnqueueFillImage
+       28 __imp_clEnqueueMapBuffer
+       29 __imp_clEnqueueMapImage
+       2A __imp_clEnqueueMarker
+       2B __imp_clEnqueueMarkerWithWaitList
+       2C __imp_clEnqueueMigrateMemObjects
+       2D __imp_clEnqueueNDRangeKernel
+       2E __imp_clEnqueueNativeKernel
+       2F __imp_clEnqueueReadBuffer
+       30 __imp_clEnqueueReadBufferRect
+       31 __imp_clEnqueueReadImage
+       32 __imp_clEnqueueReleaseGLObjects
+       33 __imp_clEnqueueSVMFree
+       34 __imp_clEnqueueSVMMap
+       35 __imp_clEnqueueSVMMemFill
+       36 __imp_clEnqueueSVMMemcpy
+       37 __imp_clEnqueueSVMUnmap
+       38 __imp_clEnqueueTask
+       39 __imp_clEnqueueUnmapMemObject
+       3A __imp_clEnqueueWaitForEvents
+       3B __imp_clEnqueueWriteBuffer
+       3C __imp_clEnqueueWriteBufferRect
+       3D __imp_clEnqueueWriteImage
+       3E __imp_clFinish
+       3F __imp_clFlush
+       40 __imp_clGetCommandQueueInfo
+       41 __imp_clGetContextInfo
+       42 __imp_clGetDeviceIDs
+       43 __imp_clGetDeviceInfo
+       44 __imp_clGetEventInfo
+       45 __imp_clGetEventProfilingInfo
+       46 __imp_clGetExtensionFunctionAddress
+       47 __imp_clGetExtensionFunctionAddressForPlatform
+       48 __imp_clGetGLObjectInfo
+       49 __imp_clGetGLTextureInfo
+       4A __imp_clGetImageInfo
+       4B __imp_clGetKernelArgInfo
+       4C __imp_clGetKernelInfo
+       4D __imp_clGetKernelWorkGroupInfo
+       4E __imp_clGetMemObjectInfo
+       4F __imp_clGetPipeInfo
+       50 __imp_clGetPlatformIDs
+       51 __imp_clGetPlatformInfo
+       52 __imp_clGetProgramBuildInfo
+       53 __imp_clGetProgramInfo
+       54 __imp_clGetSamplerInfo
+       55 __imp_clGetSupportedImageFormats
+       56 __imp_clLinkProgram
+       57 __imp_clReleaseCommandQueue
+       58 __imp_clReleaseContext
+       59 __imp_clReleaseDevice
+       5A __imp_clReleaseEvent
+       5B __imp_clReleaseKernel
+       5C __imp_clReleaseMemObject
+       5D __imp_clReleaseProgram
+       5E __imp_clReleaseSampler
+       5F __imp_clRetainCommandQueue
+       60 __imp_clRetainContext
+       61 __imp_clRetainDevice
+       62 __imp_clRetainEvent
+       63 __imp_clRetainKernel
+       64 __imp_clRetainMemObject
+       65 __imp_clRetainProgram
+       66 __imp_clRetainSampler
+       67 __imp_clSVMAlloc
+       68 __imp_clSVMFree
+       69 __imp_clSetCommandQueueProperty
+       6A __imp_clSetEventCallback
+       6B __imp_clSetKernelArg
+       6C __imp_clSetKernelArgSVMPointer
+       6D __imp_clSetKernelExecInfo
+       6E __imp_clSetMemObjectDestructorCallback
+       6F __imp_clSetUserEventStatus
+       70 __imp_clUnloadCompiler
+       71 __imp_clUnloadPlatformCompiler
+       72 __imp_clWaitForEvents
+        4 clBuildProgram
+        5 clCompileProgram
+        6 clCreateBuffer
+        7 clCreateCommandQueue
+        8 clCreateCommandQueueWithProperties
+        9 clCreateContext
+        A clCreateContextFromType
+        B clCreateFromGLBuffer
+        C clCreateFromGLRenderbuffer
+        D clCreateFromGLTexture
+        E clCreateFromGLTexture2D
+        F clCreateFromGLTexture3D
+       10 clCreateImage
+       11 clCreateImage2D
+       12 clCreateImage3D
+       13 clCreateKernel
+       14 clCreateKernelsInProgram
+       15 clCreatePipe
+       16 clCreateProgramWithBinary
+       17 clCreateProgramWithBuiltInKernels
+       18 clCreateProgramWithSource
+       19 clCreateSampler
+       1A clCreateSamplerWithProperties
+       1B clCreateSubBuffer
+       1C clCreateSubDevices
+       1D clCreateUserEvent
+       1E clEnqueueAcquireGLObjects
+       1F clEnqueueBarrier
+       20 clEnqueueBarrierWithWaitList
+       21 clEnqueueCopyBuffer
+       22 clEnqueueCopyBufferRect
+       23 clEnqueueCopyBufferToImage
+       24 clEnqueueCopyImage
+       25 clEnqueueCopyImageToBuffer
+       26 clEnqueueFillBuffer
+       27 clEnqueueFillImage
+       28 clEnqueueMapBuffer
+       29 clEnqueueMapImage
+       2A clEnqueueMarker
+       2B clEnqueueMarkerWithWaitList
+       2C clEnqueueMigrateMemObjects
+       2D clEnqueueNDRangeKernel
+       2E clEnqueueNativeKernel
+       2F clEnqueueReadBuffer
+       30 clEnqueueReadBufferRect
+       31 clEnqueueReadImage
+       32 clEnqueueReleaseGLObjects
+       33 clEnqueueSVMFree
+       34 clEnqueueSVMMap
+       35 clEnqueueSVMMemFill
+       36 clEnqueueSVMMemcpy
+       37 clEnqueueSVMUnmap
+       38 clEnqueueTask
+       39 clEnqueueUnmapMemObject
+       3A clEnqueueWaitForEvents
+       3B clEnqueueWriteBuffer
+       3C clEnqueueWriteBufferRect
+       3D clEnqueueWriteImage
+       3E clFinish
+       3F clFlush
+       40 clGetCommandQueueInfo
+       41 clGetContextInfo
+       42 clGetDeviceIDs
+       43 clGetDeviceInfo
+       44 clGetEventInfo
+       45 clGetEventProfilingInfo
+       46 clGetExtensionFunctionAddress
+       47 clGetExtensionFunctionAddressForPlatform
+       48 clGetGLObjectInfo
+       49 clGetGLTextureInfo
+       4A clGetImageInfo
+       4B clGetKernelArgInfo
+       4C clGetKernelInfo
+       4D clGetKernelWorkGroupInfo
+       4E clGetMemObjectInfo
+       4F clGetPipeInfo
+       50 clGetPlatformIDs
+       51 clGetPlatformInfo
+       52 clGetProgramBuildInfo
+       53 clGetProgramInfo
+       54 clGetSamplerInfo
+       55 clGetSupportedImageFormats
+       56 clLinkProgram
+       57 clReleaseCommandQueue
+       58 clReleaseContext
+       59 clReleaseDevice
+       5A clReleaseEvent
+       5B clReleaseKernel
+       5C clReleaseMemObject
+       5D clReleaseProgram
+       5E clReleaseSampler
+       5F clRetainCommandQueue
+       60 clRetainContext
+       61 clRetainDevice
+       62 clRetainEvent
+       63 clRetainKernel
+       64 clRetainMemObject
+       65 clRetainProgram
+       66 clRetainSampler
+       67 clSVMAlloc
+       68 clSVMFree
+       69 clSetCommandQueueProperty
+       6A clSetEventCallback
+       6B clSetKernelArg
+       6C clSetKernelArgSVMPointer
+       6D clSetKernelExecInfo
+       6E clSetMemObjectDestructorCallback
+       6F clSetUserEventStatus
+       70 clUnloadCompiler
+       71 clUnloadPlatformCompiler
+       72 clWaitForEvents
+        3 MLANG_NULL_THUNK_DATA
+
+Archive member name at 3002: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+     1E5 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               3 number of sections
+        5D16C1C0 time date stamp Sat Jun 29 10:41:20 2019
+             107 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 10 00 09 00 00 00 00 00 09 4D 4C 41  .............MLA
+  00000010: 4E 47 2E 64 6C 6C 27 00 13 10 07 00 00 00 D0 00  NG.dll'.......D.
+  00000020: 00 00 00 00 00 00 0E 00 15 00 36 6C 12 4D 69 63  ..........6l.Mic
+  00000030: 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B     rosoft (R) LINK
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CB file pointer to raw data (000000CB to 000000DE)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  ADDR32NB                   00000000         3  .idata$6
+ 00000000  ADDR32NB                   00000000         4  .idata$4
+ 00000010  ADDR32NB                   00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FD file pointer to raw data (000000FD to 00000106)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 4D 4C 41 4E 47 2E 64 6C 6C 00                    MLANG.dll.
+
+COFF SYMBOL TABLE
+000 01016C36 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_MLANG
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | MLANG_NULL_THUNK_DATA
+
+String Table Size = 0x4E bytes
+
+Archive member name at 3224: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      F8 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               2 number of sections
+        5D16C1C0 time date stamp Sat Jun 29 10:41:20 2019
+              B7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      64 file pointer to raw data (00000064 to 000000A2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 10 00 09 00 00 00 00 00 09 4D 4C 41  .............MLA
+  00000010: 4E 47 2E 64 6C 6C 27 00 13 10 07 00 00 00 D0 00  NG.dll'.......D.
+  00000020: 00 00 00 00 00 00 0E 00 15 00 36 6C 12 4D 69 63  ..........6l.Mic
+  00000030: 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B     rosoft (R) LINK
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A3 file pointer to raw data (000000A3 to 000000B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 01016C36 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 3358: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+     11A size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               3 number of sections
+        5D16C1C0 time date stamp Sat Jun 29 10:41:20 2019
+              DB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 10 00 09 00 00 00 00 00 09 4D 4C 41  .............MLA
+  00000010: 4E 47 2E 64 6C 6C 27 00 13 10 07 00 00 00 D0 00  NG.dll'.......D.
+  00000020: 00 00 00 00 00 00 0E 00 15 00 36 6C 12 4D 69 63  ..........6l.Mic
+  00000030: 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B     rosoft (R) LINK
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      CB file pointer to raw data (000000CB to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400040 flags
+         Initialized Data
+         8 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00                          ........
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      D3 file pointer to raw data (000000D3 to 000000DA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400040 flags
+         Initialized Data
+         8 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00 00 00 00 00                          ........
+
+COFF SYMBOL TABLE
+000 01016C36 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | MLANG_NULL_THUNK_DATA
+
+String Table Size = 0x1B bytes
+
+Archive member name at 34AE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clBuildProgram
+  Type         : code
+  Name type    : name
+  Hint         : 0
+  Name         : clBuildProgram
+
+Archive member name at 3518: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clCompileProgram
+  Type         : code
+  Name type    : name
+  Hint         : 1
+  Name         : clCompileProgram
+
+Archive member name at 3584: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 2
+  Name         : clCreateBuffer
+
+Archive member name at 35EE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001F
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateCommandQueue
+  Type         : code
+  Name type    : name
+  Hint         : 3
+  Name         : clCreateCommandQueue
+
+Archive member name at 365E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000002D
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateCommandQueueWithProperties
+  Type         : code
+  Name type    : name
+  Hint         : 4
+  Name         : clCreateCommandQueueWithProperties
+
+Archive member name at 36DC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateContext
+  Type         : code
+  Name type    : name
+  Hint         : 5
+  Name         : clCreateContext
+
+Archive member name at 3746: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateContextFromType
+  Type         : code
+  Name type    : name
+  Hint         : 6
+  Name         : clCreateContextFromType
+
+Archive member name at 37B8: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001F
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateFromGLBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 7
+  Name         : clCreateFromGLBuffer
+
+Archive member name at 3828: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000025
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateFromGLRenderbuffer
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : clCreateFromGLRenderbuffer
+
+Archive member name at 389E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000020
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateFromGLTexture
+  Type         : code
+  Name type    : name
+  Hint         : 9
+  Name         : clCreateFromGLTexture
+
+Archive member name at 390E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateFromGLTexture2D
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : clCreateFromGLTexture2D
+
+Archive member name at 3980: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateFromGLTexture3D
+  Type         : code
+  Name type    : name
+  Hint         : 11
+  Name         : clCreateFromGLTexture3D
+
+Archive member name at 39F2: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000018
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateImage
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : clCreateImage
+
+Archive member name at 3A5A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateImage2D
+  Type         : code
+  Name type    : name
+  Hint         : 13
+  Name         : clCreateImage2D
+
+Archive member name at 3AC4: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateImage3D
+  Type         : code
+  Name type    : name
+  Hint         : 14
+  Name         : clCreateImage3D
+
+Archive member name at 3B2E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateKernel
+  Type         : code
+  Name type    : name
+  Hint         : 15
+  Name         : clCreateKernel
+
+Archive member name at 3B98: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000023
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateKernelsInProgram
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : clCreateKernelsInProgram
+
+Archive member name at 3C0C: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000017
+  DLL name     : MLANG.dll
+  Symbol name  : clCreatePipe
+  Type         : code
+  Name type    : name
+  Hint         : 17
+  Name         : clCreatePipe
+
+Archive member name at 3C74: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000024
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateProgramWithBinary
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : clCreateProgramWithBinary
+
+Archive member name at 3CE8: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000002C
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateProgramWithBuiltInKernels
+  Type         : code
+  Name type    : name
+  Hint         : 19
+  Name         : clCreateProgramWithBuiltInKernels
+
+Archive member name at 3D64: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000024
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateProgramWithSource
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : clCreateProgramWithSource
+
+Archive member name at 3DD8: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateSampler
+  Type         : code
+  Name type    : name
+  Hint         : 21
+  Name         : clCreateSampler
+
+Archive member name at 3E42: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000028
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateSamplerWithProperties
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : clCreateSamplerWithProperties
+
+Archive member name at 3EBA: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateSubBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 23
+  Name         : clCreateSubBuffer
+
+Archive member name at 3F26: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateSubDevices
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : clCreateSubDevices
+
+Archive member name at 3F94: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clCreateUserEvent
+  Type         : code
+  Name type    : name
+  Hint         : 25
+  Name         : clCreateUserEvent
+
+Archive member name at 4000: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000024
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueAcquireGLObjects
+  Type         : code
+  Name type    : name
+  Hint         : 26
+  Name         : clEnqueueAcquireGLObjects
+
+Archive member name at 4074: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueBarrier
+  Type         : code
+  Name type    : name
+  Hint         : 27
+  Name         : clEnqueueBarrier
+
+Archive member name at 40E0: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000027
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueBarrierWithWaitList
+  Type         : code
+  Name type    : name
+  Hint         : 28
+  Name         : clEnqueueBarrierWithWaitList
+
+Archive member name at 4158: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001E
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueCopyBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 29
+  Name         : clEnqueueCopyBuffer
+
+Archive member name at 41C6: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueCopyBufferRect
+  Type         : code
+  Name type    : name
+  Hint         : 30
+  Name         : clEnqueueCopyBufferRect
+
+Archive member name at 4238: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000025
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueCopyBufferToImage
+  Type         : code
+  Name type    : name
+  Hint         : 31
+  Name         : clEnqueueCopyBufferToImage
+
+Archive member name at 42AE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueCopyImage
+  Type         : code
+  Name type    : name
+  Hint         : 32
+  Name         : clEnqueueCopyImage
+
+Archive member name at 431C: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000025
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueCopyImageToBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 33
+  Name         : clEnqueueCopyImageToBuffer
+
+Archive member name at 4392: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001E
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueFillBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 34
+  Name         : clEnqueueFillBuffer
+
+Archive member name at 4400: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueFillImage
+  Type         : code
+  Name type    : name
+  Hint         : 35
+  Name         : clEnqueueFillImage
+
+Archive member name at 446E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueMapBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 36
+  Name         : clEnqueueMapBuffer
+
+Archive member name at 44DC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueMapImage
+  Type         : code
+  Name type    : name
+  Hint         : 37
+  Name         : clEnqueueMapImage
+
+Archive member name at 4548: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueMarker
+  Type         : code
+  Name type    : name
+  Hint         : 38
+  Name         : clEnqueueMarker
+
+Archive member name at 45B2: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000026
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueMarkerWithWaitList
+  Type         : code
+  Name type    : name
+  Hint         : 39
+  Name         : clEnqueueMarkerWithWaitList
+
+Archive member name at 4628: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000025
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueMigrateMemObjects
+  Type         : code
+  Name type    : name
+  Hint         : 40
+  Name         : clEnqueueMigrateMemObjects
+
+Archive member name at 469E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000021
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueNDRangeKernel
+  Type         : code
+  Name type    : name
+  Hint         : 41
+  Name         : clEnqueueNDRangeKernel
+
+Archive member name at 4710: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000020
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueNativeKernel
+  Type         : code
+  Name type    : name
+  Hint         : 42
+  Name         : clEnqueueNativeKernel
+
+Archive member name at 4780: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001E
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueReadBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 43
+  Name         : clEnqueueReadBuffer
+
+Archive member name at 47EE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueReadBufferRect
+  Type         : code
+  Name type    : name
+  Hint         : 44
+  Name         : clEnqueueReadBufferRect
+
+Archive member name at 4860: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueReadImage
+  Type         : code
+  Name type    : name
+  Hint         : 45
+  Name         : clEnqueueReadImage
+
+Archive member name at 48CE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000024
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueReleaseGLObjects
+  Type         : code
+  Name type    : name
+  Hint         : 46
+  Name         : clEnqueueReleaseGLObjects
+
+Archive member name at 4942: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueSVMFree
+  Type         : code
+  Name type    : name
+  Hint         : 47
+  Name         : clEnqueueSVMFree
+
+Archive member name at 49AE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueSVMMap
+  Type         : code
+  Name type    : name
+  Hint         : 48
+  Name         : clEnqueueSVMMap
+
+Archive member name at 4A18: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001E
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueSVMMemFill
+  Type         : code
+  Name type    : name
+  Hint         : 49
+  Name         : clEnqueueSVMMemFill
+
+Archive member name at 4A86: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueSVMMemcpy
+  Type         : code
+  Name type    : name
+  Hint         : 50
+  Name         : clEnqueueSVMMemcpy
+
+Archive member name at 4AF4: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueSVMUnmap
+  Type         : code
+  Name type    : name
+  Hint         : 51
+  Name         : clEnqueueSVMUnmap
+
+Archive member name at 4B60: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000018
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueTask
+  Type         : code
+  Name type    : name
+  Hint         : 52
+  Name         : clEnqueueTask
+
+Archive member name at 4BC8: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueUnmapMemObject
+  Type         : code
+  Name type    : name
+  Hint         : 53
+  Name         : clEnqueueUnmapMemObject
+
+Archive member name at 4C3A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000021
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueWaitForEvents
+  Type         : code
+  Name type    : name
+  Hint         : 54
+  Name         : clEnqueueWaitForEvents
+
+Archive member name at 4CAC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001F
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueWriteBuffer
+  Type         : code
+  Name type    : name
+  Hint         : 55
+  Name         : clEnqueueWriteBuffer
+
+Archive member name at 4D1C: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000023
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueWriteBufferRect
+  Type         : code
+  Name type    : name
+  Hint         : 56
+  Name         : clEnqueueWriteBufferRect
+
+Archive member name at 4D90: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001E
+  DLL name     : MLANG.dll
+  Symbol name  : clEnqueueWriteImage
+  Type         : code
+  Name type    : name
+  Hint         : 57
+  Name         : clEnqueueWriteImage
+
+Archive member name at 4DFE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000013
+  DLL name     : MLANG.dll
+  Symbol name  : clFinish
+  Type         : code
+  Name type    : name
+  Hint         : 58
+  Name         : clFinish
+
+Archive member name at 4E62: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000012
+  DLL name     : MLANG.dll
+  Symbol name  : clFlush
+  Type         : code
+  Name type    : name
+  Hint         : 59
+  Name         : clFlush
+
+Archive member name at 4EC4: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000020
+  DLL name     : MLANG.dll
+  Symbol name  : clGetCommandQueueInfo
+  Type         : code
+  Name type    : name
+  Hint         : 60
+  Name         : clGetCommandQueueInfo
+
+Archive member name at 4F34: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clGetContextInfo
+  Type         : code
+  Name type    : name
+  Hint         : 61
+  Name         : clGetContextInfo
+
+Archive member name at 4FA0: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clGetDeviceIDs
+  Type         : code
+  Name type    : name
+  Hint         : 62
+  Name         : clGetDeviceIDs
+
+Archive member name at 500A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clGetDeviceInfo
+  Type         : code
+  Name type    : name
+  Hint         : 63
+  Name         : clGetDeviceInfo
+
+Archive member name at 5074: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clGetEventInfo
+  Type         : code
+  Name type    : name
+  Hint         : 64
+  Name         : clGetEventInfo
+
+Archive member name at 50DE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000022
+  DLL name     : MLANG.dll
+  Symbol name  : clGetEventProfilingInfo
+  Type         : code
+  Name type    : name
+  Hint         : 65
+  Name         : clGetEventProfilingInfo
+
+Archive member name at 5150: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000028
+  DLL name     : MLANG.dll
+  Symbol name  : clGetExtensionFunctionAddress
+  Type         : code
+  Name type    : name
+  Hint         : 66
+  Name         : clGetExtensionFunctionAddress
+
+Archive member name at 51C8: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000033
+  DLL name     : MLANG.dll
+  Symbol name  : clGetExtensionFunctionAddressForPlatform
+  Type         : code
+  Name type    : name
+  Hint         : 67
+  Name         : clGetExtensionFunctionAddressForPlatform
+
+Archive member name at 524C: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clGetGLObjectInfo
+  Type         : code
+  Name type    : name
+  Hint         : 68
+  Name         : clGetGLObjectInfo
+
+Archive member name at 52B8: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clGetGLTextureInfo
+  Type         : code
+  Name type    : name
+  Hint         : 69
+  Name         : clGetGLTextureInfo
+
+Archive member name at 5326: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clGetImageInfo
+  Type         : code
+  Name type    : name
+  Hint         : 70
+  Name         : clGetImageInfo
+
+Archive member name at 5390: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clGetKernelArgInfo
+  Type         : code
+  Name type    : name
+  Hint         : 71
+  Name         : clGetKernelArgInfo
+
+Archive member name at 53FE: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clGetKernelInfo
+  Type         : code
+  Name type    : name
+  Hint         : 72
+  Name         : clGetKernelInfo
+
+Archive member name at 5468: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000023
+  DLL name     : MLANG.dll
+  Symbol name  : clGetKernelWorkGroupInfo
+  Type         : code
+  Name type    : name
+  Hint         : 73
+  Name         : clGetKernelWorkGroupInfo
+
+Archive member name at 54DC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clGetMemObjectInfo
+  Type         : code
+  Name type    : name
+  Hint         : 74
+  Name         : clGetMemObjectInfo
+
+Archive member name at 554A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000018
+  DLL name     : MLANG.dll
+  Symbol name  : clGetPipeInfo
+  Type         : code
+  Name type    : name
+  Hint         : 75
+  Name         : clGetPipeInfo
+
+Archive member name at 55B2: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clGetPlatformIDs
+  Type         : code
+  Name type    : name
+  Hint         : 76
+  Name         : clGetPlatformIDs
+
+Archive member name at 561E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clGetPlatformInfo
+  Type         : code
+  Name type    : name
+  Hint         : 77
+  Name         : clGetPlatformInfo
+
+Archive member name at 568A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000020
+  DLL name     : MLANG.dll
+  Symbol name  : clGetProgramBuildInfo
+  Type         : code
+  Name type    : name
+  Hint         : 78
+  Name         : clGetProgramBuildInfo
+
+Archive member name at 56FA: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clGetProgramInfo
+  Type         : code
+  Name type    : name
+  Hint         : 79
+  Name         : clGetProgramInfo
+
+Archive member name at 5766: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clGetSamplerInfo
+  Type         : code
+  Name type    : name
+  Hint         : 80
+  Name         : clGetSamplerInfo
+
+Archive member name at 57D2: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000025
+  DLL name     : MLANG.dll
+  Symbol name  : clGetSupportedImageFormats
+  Type         : code
+  Name type    : name
+  Hint         : 81
+  Name         : clGetSupportedImageFormats
+
+Archive member name at 5848: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000018
+  DLL name     : MLANG.dll
+  Symbol name  : clLinkProgram
+  Type         : code
+  Name type    : name
+  Hint         : 82
+  Name         : clLinkProgram
+
+Archive member name at 58B0: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000020
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseCommandQueue
+  Type         : code
+  Name type    : name
+  Hint         : 83
+  Name         : clReleaseCommandQueue
+
+Archive member name at 5920: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseContext
+  Type         : code
+  Name type    : name
+  Hint         : 84
+  Name         : clReleaseContext
+
+Archive member name at 598C: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseDevice
+  Type         : code
+  Name type    : name
+  Hint         : 85
+  Name         : clReleaseDevice
+
+Archive member name at 59F6: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseEvent
+  Type         : code
+  Name type    : name
+  Hint         : 86
+  Name         : clReleaseEvent
+
+Archive member name at 5A60: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseKernel
+  Type         : code
+  Name type    : name
+  Hint         : 87
+  Name         : clReleaseKernel
+
+Archive member name at 5ACA: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseMemObject
+  Type         : code
+  Name type    : name
+  Hint         : 88
+  Name         : clReleaseMemObject
+
+Archive member name at 5B38: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseProgram
+  Type         : code
+  Name type    : name
+  Hint         : 89
+  Name         : clReleaseProgram
+
+Archive member name at 5BA4: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clReleaseSampler
+  Type         : code
+  Name type    : name
+  Hint         : 90
+  Name         : clReleaseSampler
+
+Archive member name at 5C10: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001F
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainCommandQueue
+  Type         : code
+  Name type    : name
+  Hint         : 91
+  Name         : clRetainCommandQueue
+
+Archive member name at 5C80: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainContext
+  Type         : code
+  Name type    : name
+  Hint         : 92
+  Name         : clRetainContext
+
+Archive member name at 5CEA: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainDevice
+  Type         : code
+  Name type    : name
+  Hint         : 93
+  Name         : clRetainDevice
+
+Archive member name at 5D54: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000018
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainEvent
+  Type         : code
+  Name type    : name
+  Hint         : 94
+  Name         : clRetainEvent
+
+Archive member name at 5DBC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainKernel
+  Type         : code
+  Name type    : name
+  Hint         : 95
+  Name         : clRetainKernel
+
+Archive member name at 5E26: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001C
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainMemObject
+  Type         : code
+  Name type    : name
+  Hint         : 96
+  Name         : clRetainMemObject
+
+Archive member name at 5E92: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainProgram
+  Type         : code
+  Name type    : name
+  Hint         : 97
+  Name         : clRetainProgram
+
+Archive member name at 5EFC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clRetainSampler
+  Type         : code
+  Name type    : name
+  Hint         : 98
+  Name         : clRetainSampler
+
+Archive member name at 5F66: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000015
+  DLL name     : MLANG.dll
+  Symbol name  : clSVMAlloc
+  Type         : code
+  Name type    : name
+  Hint         : 99
+  Name         : clSVMAlloc
+
+Archive member name at 5FCC: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000014
+  DLL name     : MLANG.dll
+  Symbol name  : clSVMFree
+  Type         : code
+  Name type    : name
+  Hint         : 100
+  Name         : clSVMFree
+
+Archive member name at 6030: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000024
+  DLL name     : MLANG.dll
+  Symbol name  : clSetCommandQueueProperty
+  Type         : code
+  Name type    : name
+  Hint         : 101
+  Name         : clSetCommandQueueProperty
+
+Archive member name at 60A4: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001D
+  DLL name     : MLANG.dll
+  Symbol name  : clSetEventCallback
+  Type         : code
+  Name type    : name
+  Hint         : 102
+  Name         : clSetEventCallback
+
+Archive member name at 6112: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000019
+  DLL name     : MLANG.dll
+  Symbol name  : clSetKernelArg
+  Type         : code
+  Name type    : name
+  Hint         : 103
+  Name         : clSetKernelArg
+
+Archive member name at 617C: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000023
+  DLL name     : MLANG.dll
+  Symbol name  : clSetKernelArgSVMPointer
+  Type         : code
+  Name type    : name
+  Hint         : 104
+  Name         : clSetKernelArgSVMPointer
+
+Archive member name at 61F0: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001E
+  DLL name     : MLANG.dll
+  Symbol name  : clSetKernelExecInfo
+  Type         : code
+  Name type    : name
+  Hint         : 105
+  Name         : clSetKernelExecInfo
+
+Archive member name at 625E: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000002B
+  DLL name     : MLANG.dll
+  Symbol name  : clSetMemObjectDestructorCallback
+  Type         : code
+  Name type    : name
+  Hint         : 106
+  Name         : clSetMemObjectDestructorCallback
+
+Archive member name at 62DA: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001F
+  DLL name     : MLANG.dll
+  Symbol name  : clSetUserEventStatus
+  Type         : code
+  Name type    : name
+  Hint         : 107
+  Name         : clSetUserEventStatus
+
+Archive member name at 634A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001B
+  DLL name     : MLANG.dll
+  Symbol name  : clUnloadCompiler
+  Type         : code
+  Name type    : name
+  Hint         : 108
+  Name         : clUnloadCompiler
+
+Archive member name at 63B6: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 00000023
+  DLL name     : MLANG.dll
+  Symbol name  : clUnloadPlatformCompiler
+  Type         : code
+  Name type    : name
+  Hint         : 109
+  Name         : clUnloadPlatformCompiler
+
+Archive member name at 642A: MLANG.dll/      
+5D16C1C0 time/date Sat Jun 29 10:41:20 2019
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 5D16C1C0 Sat Jun 29 10:41:20 2019
+  SizeOfData   : 0000001A
+  DLL name     : MLANG.dll
+  Symbol name  : clWaitForEvents
+  Type         : code
+  Name type    : name
+  Hint         : 110
+  Name         : clWaitForEvents
+
+     Exports
+
+       ordinal    name
+
+                  clBuildProgram
+                  clCompileProgram
+                  clCreateBuffer
+                  clCreateCommandQueue
+                  clCreateCommandQueueWithProperties
+                  clCreateContext
+                  clCreateContextFromType
+                  clCreateFromGLBuffer
+                  clCreateFromGLRenderbuffer
+                  clCreateFromGLTexture
+                  clCreateFromGLTexture2D
+                  clCreateFromGLTexture3D
+                  clCreateImage
+                  clCreateImage2D
+                  clCreateImage3D
+                  clCreateKernel
+                  clCreateKernelsInProgram
+                  clCreatePipe
+                  clCreateProgramWithBinary
+                  clCreateProgramWithBuiltInKernels
+                  clCreateProgramWithSource
+                  clCreateSampler
+                  clCreateSamplerWithProperties
+                  clCreateSubBuffer
+                  clCreateSubDevices
+                  clCreateUserEvent
+                  clEnqueueAcquireGLObjects
+                  clEnqueueBarrier
+                  clEnqueueBarrierWithWaitList
+                  clEnqueueCopyBuffer
+                  clEnqueueCopyBufferRect
+                  clEnqueueCopyBufferToImage
+                  clEnqueueCopyImage
+                  clEnqueueCopyImageToBuffer
+                  clEnqueueFillBuffer
+                  clEnqueueFillImage
+                  clEnqueueMapBuffer
+                  clEnqueueMapImage
+                  clEnqueueMarker
+                  clEnqueueMarkerWithWaitList
+                  clEnqueueMigrateMemObjects
+                  clEnqueueNDRangeKernel
+                  clEnqueueNativeKernel
+                  clEnqueueReadBuffer
+                  clEnqueueReadBufferRect
+                  clEnqueueReadImage
+                  clEnqueueReleaseGLObjects
+                  clEnqueueSVMFree
+                  clEnqueueSVMMap
+                  clEnqueueSVMMemFill
+                  clEnqueueSVMMemcpy
+                  clEnqueueSVMUnmap
+                  clEnqueueTask
+                  clEnqueueUnmapMemObject
+                  clEnqueueWaitForEvents
+                  clEnqueueWriteBuffer
+                  clEnqueueWriteBufferRect
+                  clEnqueueWriteImage
+                  clFinish
+                  clFlush
+                  clGetCommandQueueInfo
+                  clGetContextInfo
+                  clGetDeviceIDs
+                  clGetDeviceInfo
+                  clGetEventInfo
+                  clGetEventProfilingInfo
+                  clGetExtensionFunctionAddress
+                  clGetExtensionFunctionAddressForPlatform
+                  clGetGLObjectInfo
+                  clGetGLTextureInfo
+                  clGetImageInfo
+                  clGetKernelArgInfo
+                  clGetKernelInfo
+                  clGetKernelWorkGroupInfo
+                  clGetMemObjectInfo
+                  clGetPipeInfo
+                  clGetPlatformIDs
+                  clGetPlatformInfo
+                  clGetProgramBuildInfo
+                  clGetProgramInfo
+                  clGetSamplerInfo
+                  clGetSupportedImageFormats
+                  clLinkProgram
+                  clReleaseCommandQueue
+                  clReleaseContext
+                  clReleaseDevice
+                  clReleaseEvent
+                  clReleaseKernel
+                  clReleaseMemObject
+                  clReleaseProgram
+                  clReleaseSampler
+                  clRetainCommandQueue
+                  clRetainContext
+                  clRetainDevice
+                  clRetainEvent
+                  clRetainKernel
+                  clRetainMemObject
+                  clRetainProgram
+                  clRetainSampler
+                  clSVMAlloc
+                  clSVMFree
+                  clSetCommandQueueProperty
+                  clSetEventCallback
+                  clSetKernelArg
+                  clSetKernelArgSVMPointer
+                  clSetKernelExecInfo
+                  clSetMemObjectDestructorCallback
+                  clSetUserEventStatus
+                  clUnloadCompiler
+                  clUnloadPlatformCompiler
+                  clWaitForEvents
+
+  Summary
+
+          BD .debug$S
+          14 .idata$2
+          14 .idata$3
+           8 .idata$4
+           8 .idata$5
+           A .idata$6
