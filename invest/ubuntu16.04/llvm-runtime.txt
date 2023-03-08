@@ -1,0 +1,10 @@
+llvm-3.5-runtime/xenial 1:3.5.2-3ubuntu1 amd64
+llvm-3.6-runtime/xenial 1:3.6.2-3ubuntu2 amd64
+llvm-3.7-runtime/xenial 1:3.7.1-2ubuntu2 amd64
+llvm-3.8-runtime/xenial-updates 1:3.8-2ubuntu4 amd64
+llvm-3.9-runtime/xenial-updates,xenial-security 1:3.9.1-4ubuntu3~16.04.2 amd64
+llvm-4.0-runtime/xenial-updates,xenial-security 1:4.0-1ubuntu1~16.04.2 amd64
+llvm-5.0-runtime/xenial-updates 1:5.0-3~16.04.1 amd64
+llvm-6.0-runtime/xenial-updates 1:6.0-1ubuntu2~16.04.1 amd64
+llvm-8-runtime/xenial-updates,xenial-security 1:8-3~ubuntu16.04.1 amd64
+llvm-runtime/xenial-updates 1:3.8-33ubuntu3.1 amd64

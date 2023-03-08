@@ -1,0 +1,92 @@
+=======[1000,1000]=========
+Mode:CPU(CPU-RAW)
+Supports float64 on this device: TRUE
+CPU core name :Sandybridge
+CPU theads:4
+data type: float32
+computing size: [1000,1000]
+epochs: 100
+elapsed time:3.3692150115967
+--------------------------------
+blocking mode...
+Mode:GPU(GPU)
+Supports float64 on this device: FALSE
+GPU device name :Intel(R) HD Graphics 4000
+GPU Compute units :16
+data type: float32
+computing size: [1000,1000]
+epochs: 100
+elapsed time:6.1611762046814
+=======[5000,5000]=========
+Mode:CPU(CPU-RAW)
+Supports float64 on this device: TRUE
+CPU core name :Sandybridge
+CPU theads:4
+data type: float32
+computing size: [5000,5000]
+epochs: 10
+elapsed time:40.186738014221
+--------------------------------
+blocking mode...
+Mode:GPU(GPU)
+Supports float64 on this device: FALSE
+GPU device name :Intel(R) HD Graphics 4000
+GPU Compute units :16
+data type: float32
+computing size: [5000,5000]
+epochs: 10
+elapsed time:27.804306983948
+========================
+
+> php bench.php
+Mode:CPU(CPU-NORMAL)
+Supports float64 on this device: TRUE
+CPU core name :Sandybridge
+CPU theads:4
+data type: float32
+computing size: [5000,5000]
+epochs: 5
+elapsed time:20.681616067886
+
+> php bench.php
+Mode:CPU(CPU-RAW)
+Supports float64 on this device: TRUE
+CPU core name :Sandybridge
+CPU theads:4
+data type: float32
+computing size: [5000,5000]
+epochs: 5
+elapsed time:20.121232032776
+
+> php bench.php
+non-blocking mode...
+Mode:GPU(GPU)
+Supports float64 on this device: FALSE
+GPU device name :Intel(R) HD Graphics 4000
+GPU Compute units :16
+data type: float32
+computing size: [5000,5000]
+epochs: 5
+elapsed time:13.485881090164
+
+====================================
+> php bench.php
+Mode:CPU(CPU-RAW)
+Supports float64 on this device: TRUE
+CPU core name :Sandybridge
+CPU theads:4
+data type: float32
+computing size: [5000,5000]
+epochs: 10
+elapsed time:40.259428024292
+
+> php bench.php
+non-blocking mode...
+Mode:GPU(GPU)
+Supports float64 on this device: FALSE
+GPU device name :Intel(R) HD Graphics 4000
+GPU Compute units :16
+data type: float32
+computing size: [5000,5000]
+epochs: 10
+elapsed time:26.753814935684

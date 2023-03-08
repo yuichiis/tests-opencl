@@ -1,0 +1,45 @@
+Package: mesa-opencl-icd
+Version: 18.0.5-0ubuntu0~16.04.1
+Priority: optional
+Section: universe/libs
+Source: mesa
+Origin: Ubuntu
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 33.4 MB
+Provides: opencl-icd
+Depends: libclc-r600 (>= 0.2.0+git20180312-1~), libclc-amdgcn (>= 0.2.0+git20180312-1~), ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.4), libllvm6.0 (>= 1:6.0~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Homepage: https://mesa3d.org/
+Download-Size: 8,112 kB
+APT-Manual-Installed: yes
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Description: free implementation of the OpenCL API -- ICD runtime
+ This package contains the mesa implementation of the OpenCL (Open Compute
+ Language) library, which is intended for use with an ICD loader. OpenCL
+ provides a standardized interface for computational analysis on graphical
+ processing units.
+
+Package: mesa-opencl-icd
+Version: 11.2.0-1ubuntu2
+Priority: optional
+Section: universe/libs
+Source: mesa
+Origin: Ubuntu
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 29.2 MB
+Provides: opencl-icd
+Depends: libclc-r600 (>= 0.2.0+git20150813), libclc-amdgcn, ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.63), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.38), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.4), libllvm3.8, libstdc++6 (>= 5.2)
+Breaks: libgl1-mesa-dri (<< 10.3.0-1)
+Replaces: libgl1-mesa-dri (<< 10.3.0-1)
+Homepage: http://mesa3d.org/
+Download-Size: 6,773 kB
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Description: free implementation of the OpenCL API -- ICD runtime
+ This package contains the mesa implementation of the OpenCL (Open Compute
+ Language) library, which is intended for use with an ICD loader. OpenCL
+ provides a standardized interface for computational analysis on graphical
+ processing units.
+

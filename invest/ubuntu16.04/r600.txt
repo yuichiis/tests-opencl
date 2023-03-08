@@ -1,0 +1,43 @@
+Package: libclc-r600
+Version: 0.2.0+git20180312-1~16.04.1
+Priority: extra
+Section: universe/libs
+Source: libclc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 102 MB
+Depends: libclc-dev (= 0.2.0+git20180312-1~16.04.1), libclang-common-6.0-dev
+Homepage: https://libclc.llvm.org
+Download-Size: 18.0 MB
+APT-Manual-Installed: no
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Description: OpenCL C language implementation - r600 support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the r600 (AMD GPU) platform.
+ Supported GPU families: Evergreen and Northern Islands.
+
+Package: libclc-r600
+Version: 0.2.0+git20150813-2
+Priority: extra
+Section: universe/libs
+Source: libclc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 46.1 MB
+Depends: libclc-dev (= 0.2.0+git20150813-2), libclang-common-3.7-dev
+Homepage: http://libclc.llvm.org
+Download-Size: 9,352 kB
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Description: OpenCL C language implementation - r600 support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the r600 (AMD GPU) platform.
+ Supported GPU families: Evergreen and Northern Islands.
+

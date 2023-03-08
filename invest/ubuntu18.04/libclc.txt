@@ -1,0 +1,14 @@
+$ apt search libclc
+libclc-amdgcn/bionic-updates,bionic-updates,now 0.2.0+git20190827-1ubuntu0.18.04.3 all [インストール済み、自動]
+  OpenCL C language implementation - amdgcn support
+
+libclc-dev/bionic-updates,bionic-updates,now 0.2.0+git20190827-1ubuntu0.18.04.3 all [インストール済み、自動]
+  OpenCL C language implementation - development files
+
+libclc-ptx/bionic-updates,bionic-updates 0.2.0+git20190827-1ubuntu0.18.04.3 all
+  OpenCL C language implementation - ptx support
+
+libclc-r600/bionic-updates,bionic-updates,now 0.2.0+git20190827-1ubuntu0.18.04.3 all [インストール済み、自動]
+  OpenCL C language implementation - r600 support
+
+

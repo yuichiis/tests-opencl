@@ -1,0 +1,66 @@
+$ apt show libclc-amdgcn -a
+Package: libclc-amdgcn
+Version: 0.2.0+git20190827-1ubuntu0.18.04.3
+Priority: extra
+Section: universe/libs
+Source: libclc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 24.6 MB
+Depends: libclc-dev (= 0.2.0+git20190827-1ubuntu0.18.04.3), libclang-common-10-dev
+Homepage: https://libclc.llvm.org
+Download-Size: 2,114 kB
+APT-Manual-Installed: no
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages
+Description: OpenCL C language implementation - amdgcn support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the amdgcn (AMD GPU) platform.
+ Supported GPU families: Southern Islands and newer.
+
+Package: libclc-amdgcn
+Version: 0.2.0+git20190827-1ubuntu0.18.04.2
+Priority: extra
+Section: universe/libs
+Source: libclc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 25.1 MB
+Depends: libclc-dev (= 0.2.0+git20190827-1ubuntu0.18.04.2), libclang-common-9-dev
+Homepage: https://libclc.llvm.org
+Download-Size: 2,171 kB
+APT-Sources: http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages
+Description: OpenCL C language implementation - amdgcn support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the amdgcn (AMD GPU) platform.
+ Supported GPU families: Southern Islands and newer.
+
+Package: libclc-amdgcn
+Version: 0.2.0+git20180312-1
+Priority: extra
+Section: universe/libs
+Source: libclc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 126 MB
+Depends: libclc-dev (= 0.2.0+git20180312-1), libclang-common-6.0-dev
+Homepage: https://libclc.llvm.org
+Download-Size: 23.4 MB
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu bionic/universe amd64 Packages
+Description: OpenCL C language implementation - amdgcn support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the amdgcn (AMD GPU) platform.
+ Supported GPU families: Southern Islands and newer.
+
+

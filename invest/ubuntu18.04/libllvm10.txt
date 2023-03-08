@@ -1,0 +1,25 @@
+$ apt show libllvm10 
+Package: libllvm10
+Version: 1:10.0.0-4ubuntu1~18.04.2
+Priority: optional
+Section: libs
+Source: llvm-toolchain-10
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74.1 MB
+Depends: libc6 (>= 2.27), libedit2 (>= 2.11-20080614), libffi6 (>= 3.0.4), libgcc1 (>= 1:3.3), libstdc++6 (>= 6), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Homepage: https://www.llvm.org/
+Supported: 5y
+Download-Size: 15.4 MB
+APT-Manual-Installed: no
+APT-Sources: http://jp.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages
+Description: Modular compiler and toolchain technologies, runtime library
+ LLVM is a collection of libraries and tools that make it easy to build
+ compilers, optimizers, just-in-time code generators, and many other
+ compiler-related programs.
+ .
+ This package contains the LLVM runtime library.
+
+
