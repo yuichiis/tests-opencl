@@ -8,6 +8,8 @@
 
 int main(int argc, char ** argv)
 {
+    cl_device_type devtypes[] = {CL_DEVICE_TYPE_GPU,CL_DEVICE_TYPE_CPU};
+    const char* devtypesname[] = {"GPU","CPU"};
     std::complex<float> alpha;
     alpha = { 2 , 0 };
     std::complex<float> hostX[NWITEMS];
@@ -28,12 +30,17 @@ int main(int argc, char ** argv)
     // 2. Find a gpu device.
     cl_device_id device;
     cl_uint num_devices=0;
-    clGetDeviceIDs( platform,           // cl_platform_id platform
-                    CL_DEVICE_TYPE_GPU, // cl_device_type device_type
+    for(int dv=0;dv<2;++dv) {
+        clGetDeviceIDs( platform,           // cl_platform_id platform
+                    devtypes[dv], // cl_device_type device_type
                     1,                  // cl_uint num_entries
                     &device,            // cl_device_id *devices
                     &num_devices);      // cl_uint *num_devices
-    printf("%d devices are found.\n",num_devices);
+        printf("%s: %d devices are found.\n",devtypesname[dv],num_devices);
+        if(num_devices>0) {
+            break;
+        }
+    }
     if(num_devices==0) {
         return 0;
     }
@@ -76,7 +83,7 @@ int main(int argc, char ** argv)
         bufX, offX, incX,
         &queue, &event);
     if(status!=clblast::StatusCode::kSuccess) {
-        printf("Error: CLBlastCscal code=%d\n",status);
+        printf("Error: CLBlastCscal code=%d\n",(int)status);
         clReleaseMemObject( bufX );
         clReleaseCommandQueue(queue);
         clReleaseContext(context);
