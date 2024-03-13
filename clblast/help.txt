@@ -1,0 +1,236 @@
+                         C/C++ COMPILER OPTIONS
+
+
+                              -最適化-
+
+/O1 最大限の最適化 (スペースを優先)     /O2 最大限の最適化 (速度を優先)
+/Ob<n> インライン展開 (既定値 n=0)      /Od 最適化を無効にする (既定)
+/Og グローバルな最適化を有効にする      /Oi[-] 組み込み関数を有効にする
+/Os コード スペースを優先する           /Ot コードのスピードを優先する
+/Ox 最適化 (速度を優先)                 
+/favor:<blend|AMD64|INTEL64|ATOM> 最適化するプロセッサを、次から 1 つ選択する:
+    blend - いくつかの異なる x64 プロセッサ用の最適化の組み合わせ
+    AMD64 - 64 ビット AMD プロセッサ                                 
+    INTEL64: Intel(R)64 アーキテクチャ プロセッサ                  
+    ATOM - Intel(R) Atom(TM) プロセッサ                           
+
+                             -コード生成-
+
+/Gu[-] は、個別の関数に個別のアドレスが含まれるようにします
+/Gw[-] リンカー用の個別のグローバル変数 
+/GF 読み取り専用の文字列プールを有効にする
+/Gm[-] 最小リビルドを有効にする         /Gy[-] リンカーの別の機能
+/GS[-] セキュリティ チェックを有効にする/GR[-] C++ RTTI を有効にする
+/GX[-] C++ EH を有効にする (/EHsc と同様)
+/guard:cf[-] は CFG (Control Flow Guard) を有効にします
+/guard:ehcont[-] EH 継続メタデータ (CET) を有効にする
+/EHs C++ EH を有効にする (SEH 例外なし) /EHa C++ EH を有効にする (SEH 例外あり)
+/EHc extern "C" は既定の nothrow になる 
+/EHr 常に noexcept ランタイム終了チェックを生成する
+/fp:<except[-]|fast|precise|strict> 浮動小数点モデルの選択:
+    except[-] - コードの生成中に浮動小数点の例外を考慮します
+    fast - "fast" 浮動小数点モデルです。結果の予測が困難になります
+    precise - "precise" 浮動小数点モデルです。結果は予測可能です
+    strict - "strict" 浮動小数点モデルです (/fp:except を暗示)
+/fp:except を指定しても /Qfast_transcendentals を指定するとインライン FP 組み込みが生成されます
+/Qspectre[-] CVE 2017-5753 に対する軽減策を有効にする
+/Qpar[-] 並列コード生成を有効にする     
+/Qpar-report:1 自動並行化診断。並行化されたループを示します
+/Qpar-report:2 自動並行化診断。並行化されていないループを示します
+/Qvec-report:1 自動ベクトル化診断。ベクトル化されたループを示します
+/Qvec-report:2 自動ベクトル化診断。ベクトル化されていないループを示します
+/GL[-] リンク時のコード生成を有効にする 
+/volatile:<iso|ms> 揮発性モデルを選択します:
+    iso - 揮発性アクセスで取得/解除セマンティクスは保証されません
+    ms  - 揮発性アクセスで取得/解除セマンティクスは保証されます
+/GA Windows アプリケーション用の最適化を行う
+/Ge すべての関数にスタック チェックを強制する
+/Gs[num] スタック チェックの呼び出しを制御する
+/Gh _penter 関数呼び出しを有効にする    /GH _pexit 関数呼び出しを有効にする
+/GT ファイバー セーフの TLS アクセスを生成する
+/RTC1 高速チェックを有効にする (/RTCsu) /RTCc 小さい型のチェックに変換する
+/RTCs スタック フレーム ランタイム チェック
+/RTCu 初期化されていないローカル変数のチェック
+/clr[:option] 次のオプションが指定される場合、共通言語ランタイム用にコンパイルする:
+    pure : ネイティブな実行可能コードではなく、IL のみの出力ファイルを作成する
+    safe : IL のみの検証可能な出力ファイルを作成する
+    netcore : .NET Core ランタイムを対象とするアセンブリを生成する
+    noAssembly : アセンブリを生成しない 
+    nostdlib : アセンブリを検索するときにシステムの .NET Framework ディレクトリを無視する
+    nostdimport : 必要なアセンブリを暗黙的にインポートしない
+    initialAppDomain : Visual C++ 2002 の最初の AppDomain 動作を有効にする
+    implicitKeepAlive- : turn off implicit emission of System::GC::KeepAlive(this)
+/fsanitize=address は Address Sanitizer の CodeGen を有効化します
+/homeparams レジスタ内で渡されたパラメーターを強制的にスタックに書き込む
+/GZ スタック チェックを有効にする (/RTCs)
+/Gv __vectorcall の呼び出し規約         
+/arch:<AVX|AVX2|AVX512> CPU アーキテクチャの最低要件。以下のいずれか:
+   AVX - AVX 対応の CPU で使用できる命令を使用可能にする
+   AVX2 - AVX2 対応の CPU で使用できる命令を使用可能にする
+   AVX512 - AVX-512 対応の CPU で使用できる命令を使用可能にする
+/QIntel-jcc-erratum Intel JCC erratum に対する軽減策を有効にする
+/Qspectre-load メモリを読み込むすべての命令に対して、Spectre 軽減策を有効にします
+/Qspectre-load-cf メモリを読み込むすべての制御フロー命令に対して、Spectre 軽減策を有効にします
+/fpcvt:<IA|BC> FP から符号なし整数への変換の互換性
+   IA - VCVTTSD2USI 命令と互換性のある結果
+   BC - VS2017 以前のコンパイラと互換性のある結果
+
+                              -出力ファイル-
+
+/Fa[file] アセンブリ リスティング ファイルに名前を付けます
+/FA[scu] アセンブリ リストを設定する    /Fd[file] .PDB ファイル名を指定する
+/Fe<file> .EXE ファイルに名前を付けます 
+/Fm[file] マップ ファイルに名前を付けます
+/Fo<file> オブジェクト ファイルに名前を付けます
+/Fp<file> プリコンパイル済みヘッダー ファイル名を指定する
+/Fr[file] ソース ブラウザー ファイル名を指定する
+/FR[file] .SBR 拡張ファイルを指定する   
+/Fi[file] 前処理されたファイルに名前を付けます
+/Fd: <file> .PDB ファイル名を指定する   /Fe: <file> 実行可能ファイル名を指定する
+/Fm: <file> マップ ファイル名を指定する 
+/Fo: <file> オブジェクト ファイル名を指定する
+/Fp: <file> .PCH ファイル名を指定する   /FR: <file> .SBR 拡張ファイルを指定する
+/Fi: <file> 前処理されたファイル名を指定する
+/Ft<dir> #import 用に生成されたヘッダー ファイルの場所
+/doc[file] XML ドキュメント コメントを処理し、.xdc ファイルの名前を指定する
+
+                              -プリプロセッサ-
+
+/AI<dir> アセンブリ検索パスに追加する   
+/FU<file> アセンブリやモジュールを強制的に追加する 
+/C コメントを削除しない                 /D<name>{=|#}<text> マクロを定義します
+/E stdout に前処理する                  /EP stdout に前処理します。#line なし
+/P ファイルに前処理します               /Fx 挿入コードをファイルにマージする
+/FI<file> 必ず使用されるインクルード ファイル名を指定する
+/U<name> 定義済みのマクロを削除します   /u 定義済みのマクロをすべて削除します
+/I<dir> インクルード検索パスに追加します/X "standard places" を無視する
+/PH 前処理時に #pragma file_hash を生成します
+/PD すべてのマクロ定義を出力する        
+
+                                -言語-
+
+/std:<c++14|c++17|c++latest> C++ 標準バージョン
+    c++14 – ISO/IEC 14882:2014 (既定)
+    c++17 – ISO/IEC 14882:2017
+    c++latest – 標準の最終草案 (機能セットは変更される可能性があります)
+/permissive[-] 非準拠のコードの一部をコンパイルできるようにします (機能セットは変更される可能性があります) (既定ではオン)
+/Ze 拡張子を有効にします (既定)         /Za 拡張子を無効にします
+/ZW WinRT 言語拡張を有効にします        /Zs 構文チェックのみ
+/Zc:arg1[,arg2] C++ 言語準拠です。使用できる引数:
+  forScope[-]           スコープ規則に標準 C++ を適用します
+  wchar_t[-]            wchar_t はネイティブ型であって、typedef ではありません
+  auto[-]               新しい標準 C++ の解釈を auto に適用します
+  trigraphs[-]          トライグラフを有効にします (既定ではオフ)
+  rvalueCast[-]         標準 C++ の明示的な型変換規則を適用します
+  strictStrings[-]      文字列リテラルから [char|wchar_t]*
+                        への変換を無効にします (既定ではオフ)
+  implicitNoexcept[-]   必須関数に対する暗黙的な noexcept を有効にします
+  threadSafeInit[-]     スレッドセーフであるローカルの静的な初期化を有効にします
+  inline[-]             参照されない関数またはデータが COMDAT である場合や、
+                        内部のリンケージのみを持つ場合に、この関数またはデータを削除します (既定ではオフ)
+  sizedDealloc[-]       C++14 グローバル サイズの割り当て
+                        解除関数を有効にします (既定ではオン)
+  throwingNew[-]        失敗時に演算子 new のスローを想定します (既定ではオフ)
+  referenceBinding[-]   一時値は非定数の
+                        左辺値の参照にはバインドされません (既定ではオフ)
+  twoPhase-             2 フェーズの名前参照を無効にします
+  ternary[-]            C++ 11 ルールを条件演算子に適用します (既定ではオフ)
+  noexceptTypes[-]      C ++17 noexcept ルールを適用します (既定では C++17 以降でオン)
+  alignedNew[-]         動的に割り当てられたオブジェクトの C++17 の配置を有効にします (既定ではオン)
+  hiddenFriend[-]       標準 C++ 非表示のフレンド規則を適用します (/permissive- で指定)
+  externC[-]            標準 C++ 規則を 'extern "C"' 関数に適用します (/permissive- で指定)
+  lambda[-]             新しいラムダ プロセッサを使用してラムダ サポートを強化します (既定で無効)
+  tlsGuards[-]          TLS 変数の初期化のランタイム チェックを生成します (既定ではオン)
+  zeroSizeArrayNew[-]   メンバー new または delete をサイズが 0 の配列のオブジェクトに対して呼び出します (既定ではオン)
+/await 再開可能な関数の拡張機能を有効にする
+/await:strict enable: 標準 C++ 20 コルーチンサポートを以前の言語バージョンで有効にする
+/constexpr:depth<N>     constexpr 評価の再帰の深さ限度 (既定: 512)
+/constexpr:backtrace<N> 診断での N constexpr 評価を示します (既定: 10)
+/constexpr:steps<N>     N ステップ後に constexpr 評価を終了します (既定: 100000)
+/Zi デバッグ情報を有効にします          /Z7 前の形式のデバッグ情報を有効にします
+/Zo[-] 最適化されたコードのより詳細なデバッグ情報を生成します (既定ではオン)
+/ZH: [MD5 |SHA1 |SHA_256] デバッグ情報でファイルのチェックサムを計算するためのハッシュ アルゴリズム (既定値: MD5)
+/Zp[n] 構造体を n バイト境界でパックします
+/Zl .OBJ で既定のライブラリ名を省略します
+/vd{0|1|2} vtordisp を無効/有効にします /vm<x> メンバーへのポインターの種類
+/std:<c11|c17> C 標準バージョン
+    c11 - ISO/IEC 9899:2011
+    c17 - ISO/IEC 9899:2018
+/ZI エディット コンティニュのデバッグ情報を有効にする
+/openmp OpenMP 2.0 言語拡張を有効にする 
+/openmp:experimental では、OpenMP 2.0 言語拡張機能が使用可能になり、OpenMP 3.0+ 言語拡張機能が選択されます
+LLVM ランタイムが使用されている /openmp:llvm OpenMP 言語拡張
+
+                              -その他-
+
+@<file> オプション応答ファイル          
+/?, /help このヘルプ メッセージを出力する
+/bigobj 拡張オブジェクトの形式を生成する/c コンパイルのみ。リンクは行わない
+/errorReport:非推奨のオプション。内部コンパイラ エラーを Microsoft に報告する
+    none - レポートを送信しません       
+    prompt - レポートをすぐに送信するかどうかを尋ねるメッセージを表示します
+    queue - 次の管理者ログオン時に、レポートを送信するかどうかをたずねるメッセージを表示します (既定)
+    send - レポートを自動的に送信します         
+/FC 診断で完全パス名を使用する          /H<num> 外部名の最大の長さ
+/J 文字型を既定で unsigned にする       
+/MP[n] はコンパイル時に最大で 'n' 個のプロセスが使用されます
+/nologo 著作権メッセージを表示しない    
+/showIncludes インクルード ファイル名を表示する
+/Tc<source file> ファイルを .c としてコンパイルする
+/Tp<source file> ファイルを .cpp としてコンパイルする
+/TC すべてのファイルを .c としてコンパイルする
+/TP すべてのファイルを .cpp としてコンパイルする
+/V<string> バージョン文字列を設定する   /Yc[file] .PCH ファイルを作成する
+/Yd デバッグ情報をすべての .OBJ に保存する
+/Yl[sym] デバッグ ライブラリで使用する .PCH 参照を投入する
+/Yu[file] .PCH ファイルを使用する       /Y- PCH オプションをすべて無効にする
+/Zm<n> 最大メモリの割り当て (既定の %)  /FS 強制的に MSPDBSRV.EXE を使用する
+/source-charset:<iana-name>|.nnnn は、ソース文字セットを設定します
+/execution-charset:<iana-name>|.nnnn は、実行文字セットを設定します
+/utf-8 は、ソースおよび実行文字セットを UTF-8 に設定します
+/validate-charset[-] では、有効な文字に対してのみ UTF-8 ファイルが検証されます
+/fastfail[-] は、fast-fail モードを有効にします
+/JMC[-] は、ネイティブの「マイ コードのみ」を有効にします
+/presetPadding[-] スタック ベースのクラス型のパディングをゼロに初期化する
+/volatileMetadata [-] は、揮発性メモリアクセスでメタデータを生成します
+
+                                -リンク-
+
+/LD .DLL を作成する                     /LDd .DLL デバッグ ライブラリを作成する
+/LN .netmodule を作成する               /F<num> スタック サイズを設定する
+/link [リンカー オプションとライブラリ] /MD MSVCRT.LIB でリンクする
+/MT LIBCMT.LIB でリンクする             
+/MDd MSVCRTD.LIB デバッグ ライブラリでリンクする
+/MTd LIBCMTd.LIB デバッグ ライブラリでリンクする
+
+                              -Code Analysis-
+
+/analyze[-] ネイティブの分析を有効にする
+/analyze:quiet[-] コンソールに警告を表示しない
+/analyze:log<name> ファイルに警告を記録する
+/analyze:autolog ログの記録先: *.pftlog 
+/analyze:autolog:ext<ext> *.<ext> にログを記録する
+/analyze:autolog- ログ ファイルなし     /analyze:WX- 致命的でない警告
+/analyze:stacksize<num> スタック フレームの最大サイズ
+/analyze:max_paths<num> パスの最大数    /analyze:only 分析のみ、コード生成なし
+
+                              -診断-
+
+/diagnostics:<引数,...> 診断メッセージの形式を制御します:
+             classic - 以前の形式を保持します
+             column[-] - 列情報を出力します
+             caret[-] - 列および指定したソース行を出力します
+/Wall 警告をすべて有効にする            /w   警告をすべて無効にします
+/W<n> 警告レベルを設定する (既定 n=1)   
+/Wv:xx[.yy[.zzzzz]] はバージョン xx.yy.zzzzz 以降に導入された警告を無効にします
+/WX 警告をエラーとして扱います          /WL 1 行診断を有効にします
+/wd<n> 警告 n を無効にします            /we<n> 警告 n をエラーとして扱う
+/wo<n> 警告 n を 1 回だけ表示します     
+/w<l><n> n の警告レベルを 1 ～ 4 に設定します
+/external:I <path>      – 外部ヘッダーの場所
+/external:env:<変数>     – 外部ヘッダーの場所が含まれる環境変数
+/external:anglebrackets – <> に含まれているヘッダーすべてを外部ヘッダーとして処理します
+/external:W<数字>          – 外部ヘッダーの警告レベル
+/external:templates[-]  – テンプレート インスタンス化チェーンにおける警告レベルを評価します
+/sdl 追加のセキュリティ機能と警告を有効にする
+
